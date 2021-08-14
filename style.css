@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* basic root configuration */
+:root {
+  --primary: #2563eb;
+  --gray: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+.text-md {
+  font-size: 1.6rem;
+}
+
+hr {
+  margin: 3rem 0rem;
+}
+
+.ow {
+  background-color: var(--gray);
+}
+
+/* my containers */
+.section {
+  width: 100%;
+  padding: 1rem;
+}
+
+.mycontain {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0rem;
+}
+
+.content {
+  margin: 2rem auto;
+  text-align: center;
+  padding: 0.8rem 0rem;
+}
+
+.projects {
+  margin: 2rem auto;
+  text-align: left;
+  padding: 0.8rem 0rem;
+}
+
+/* navbar */
+#nav {
+  background-color: var(--primary);
+  border-bottom-left-radius: 2rem;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand a {
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.nav-link {
+  padding: 0rem;
+}
+
+/* list */
+.list-inline {
+  display: inline;
+  text-decoration: none;
+  padding: 0rem 0.5rem;
+}
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+/* links */
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.link-primary {
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  color: white;
+  max-width: fit-content;
+  padding: 1rem;
+  display: block;
+  margin: 0rem auto;
+  font-weight: bold;
+}
+
+.link-secondary {
+  color: var(--primary);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary);
+  max-width: fit-content;
+  padding: 1rem;
+  display: block;
+  margin: 0rem auto;
+  font-weight: bold;
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary);
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+  border-top-right-radius: 2rem;
+}
+
+/* hero section */
+
+.hero {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hero h3 {
+  margin-top: 2rem;
+  color: var(--dark-gray);
+}
+
+.hero img {
+  width: 450px;
+  max-width: 60%;
+}
+
+/* showcase */
+.showcase-list {
+  padding: 2rem;
+}
+
+/* projects */
+.projects .link-primary {
+  display: inline-block;
+}
+.projects .link-secondary {
+  display: inline-block;
+  margin-left: 1rem;
+}
