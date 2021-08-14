@@ -54,7 +54,7 @@ hr {
   padding: 0.8rem 0rem;
 }
 
-.projects {
+.items {
   margin: 2rem auto;
   text-align: left;
   padding: 0.8rem 0rem;
@@ -159,11 +159,11 @@ hr {
   padding: 2rem;
 }
 
-/* projects */
-.projects .link-primary {
+/* items */
+.items .link-primary {
   display: inline-block;
 }
-.projects .link-secondary {
+.items .link-secondary {
   display: inline-block;
   margin-left: 1rem;
 }
