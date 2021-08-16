@@ -7,8 +7,6 @@ This is my first portfolio consisting of all my social media handles, a brief in
 1. Know Me Quiz (CLI App)
 2. Health Quiz (CLI App)
 
-# My Skills
-
 # Technologies Used In This Project
 
 - HTML5
