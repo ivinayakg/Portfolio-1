@@ -13,11 +13,14 @@ window.addEventListener("resize", () => {
   }
 });
 
-if (size < 600) {
-  menuOpen.style.display = "block";
-} else {
-  menuOpen.style.display = "none";
-}
+window.addEventListener("load", () => {
+  size = window.screen.width;
+  if (size < 600) {
+    menuOpen.style.display = "block";
+  } else {
+    menuOpen.style.display = "none";
+  }
+});
 
 menuOpen.addEventListener("click", () => {
   menu.style.display = "block";
