@@ -7,6 +7,10 @@
   --dark-gray: #6b7280;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
@@ -199,4 +203,38 @@ hr {
 .items .link-secondary {
   display: inline-block;
   margin-left: 1rem;
+}
+
+/* mobile responsive designing */
+
+@media only screen and (max-width: 600px) {
+  .text-md,
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .mycontain {
+    padding: 4rem;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    background-color: var(--primary);
+    display: none;
+    padding: 0.5rem;
+  }
+
+  .menu .list-inline {
+    display: block;
+    margin: 18px 10px;
+  }
+
+  .nav {
+    justify-content: space-around;
+  }
+  #nav .mycontain {
+    padding: 0.75rem 0rem;
+  }
 }
