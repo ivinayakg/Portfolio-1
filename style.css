@@ -213,8 +213,22 @@ hr {
     font-size: 1.2rem;
   }
 
+  .text-box h2 {
+    font-size: 1.2rem;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-sm {
+    font-size: 0.9rem;
+  }
+
   .mycontain {
-    padding: 4rem;
+    padding: 2rem;
   }
 
   .menu {
@@ -236,5 +250,50 @@ hr {
   }
   #nav .mycontain {
     padding: 0.75rem 0rem;
+  }
+
+  .hero .mycontain {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .hero .underline {
+    font-size: 1rem;
+  }
+  .hero img {
+    object-fit: cover;
+    margin-top: 25px;
+  }
+
+  .ow .content {
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .ow .content img {
+    display: none;
+  }
+
+  .ow .content .text-box {
+    width: 100%;
+    padding: 2rem;
+  }
+  .content {
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .content .text-box {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .link {
+    padding: 0.75rem;
+    font-size: 0.9rem;
   }
 }
