@@ -238,6 +238,7 @@ hr {
     background-color: var(--primary);
     display: none;
     padding: 0.5rem;
+    transition: ease 350ms;
   }
 
   .menu .list-inline {
