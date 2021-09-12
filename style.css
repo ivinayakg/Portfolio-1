@@ -298,3 +298,27 @@ hr {
     font-size: 0.9rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .items {
+    padding: 1rem !important;
+  }
+  .list-non-bullet hr {
+    margin: 2rem 0rem;
+  }
+
+  .showcase-list {
+    padding: 0.5rem;
+  }
+
+  .link {
+    display: inline;
+    width: 50%;
+  }
+
+  .links-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
